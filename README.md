@@ -14,7 +14,7 @@
 
 Главное - отступ 4 пробела, никаких табов.
 
-```
+```C
 struct Foo
 {
     int bar;
@@ -29,5 +29,9 @@ _TODO: сделать конфиг для cpplint, ~~и выложить .vscode
 ## И все остальное
 
 * [shell](shell.md)
-* [shell2](shell2.md)
 * [tools](tools.md)
+* [.vscode](vscode.md)
+
+## Статус
+
+* Семинары с гитхаба: 01 - 01
