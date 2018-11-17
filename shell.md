@@ -583,3 +583,33 @@ printf "%d -- %f\n%s\n%s\n" $A $B $C "$D"  # обратите внимание �
 
 Пройти как можно больше уровней в игре Bandit [http://overthewire.org/wargames/bandit/].
 
+# Пример простого скрипта тестирования на `bash`е
+
+```bash
+#!/bin/bash
+
+program="$1"
+
+echo "$program"
+
+for file in tests/*.in
+do
+    resfile="${file/.in/.res}"
+    outfile="${file/.in/.out}"
+    echo "$file"
+
+    if "$program" < "$file" > "$resfile"
+    then
+    echo success
+    if diff "$resfile" "$outfile"
+    then
+        echo correct
+    else
+        echo incorrect
+    fi
+    else
+    echo fail
+    fi
+
+done
+```
