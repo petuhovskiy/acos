@@ -1,0 +1,4 @@
+github.com/bclicn/color v0.0.0-20180711051946-108f2023dc84 h1:cutFptzj+ospnc1PETUqcSVTH3VQ44Bi0rpt3nE9gvo=
+github.com/bclicn/color v0.0.0-20180711051946-108f2023dc84/go.mod h1:Va9ap1qxjAWkIVaW1E9rH0aNgE8SDI5A4n8Ds8P0fAA=
+github.com/sergi/go-diff v1.0.0 h1:Kpca3qRNrduNnOQeazBd0ysaKrUJiIuISHxogkT9RPQ=
+github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
