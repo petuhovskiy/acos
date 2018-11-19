@@ -7,7 +7,7 @@ import (
 func TestTask(args []string) {
 	opts := tool.TestOptions{
 		Source:     "main.c",
-		Executable: "main",
+		Executable: "./main",
 		TestsDir:   "tests",
 	}
 

@@ -13,6 +13,8 @@ func Start() {
 			NewTask(args[1:])
 		case "test":
 			TestTask(args[1:])
+		case "gen":
+			GenTests(args[1:])
 		default:
 			fmt.Printf("Unknown action: %s\n", args[0])
 		}

@@ -28,11 +28,11 @@ _TODO: сделать конфиг для cpplint, ~~и выложить .vscode
 
 ## И все остальное
 
-* [Прогаем на си](c.md)
-* [GNU Toolchain](gnu.md)
-* [Работа в терминале и скрипты на баше](shell.md)
-* [Утилиты командной строки](tools.md)
-* [Настройка vscode](vscode.md)
+* [Прогаем на си](doc/c.md)
+* [GNU Toolchain](doc/gnu.md)
+* [Работа в терминале и скрипты на баше](doc/shell.md)
+* [Утилиты командной строки](doc/tools.md)
+* [Настройка vscode](doc/vscode.md)
 
 ## Статус
 

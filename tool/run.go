@@ -12,7 +12,7 @@ import (
 )
 
 func TestRun(exe string, test FileTest) {
-	cmd := exec.Command("./" + exe)
+	cmd := exec.Command(exe)
 	out := bytes.Buffer{}
 	cmd.Stdin = strings.NewReader(test.In)
 	cmd.Stdout = &out
@@ -27,6 +27,9 @@ func TestRun(exe string, test FileTest) {
 	outString := string(out.Bytes())
 	if !strings.HasSuffix(outString, "\n") {
 		FWarn("Missing \\n")
+	}
+	if bytes.ContainsRune(out.Bytes(), 0) {
+		FWarn("Contains \\0")
 	}
 
 	if outString == test.Ans {
