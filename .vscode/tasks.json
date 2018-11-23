@@ -12,6 +12,7 @@
                 "-Werror",
                 "-std=gnu11",
                 "-g",
+                "-lm",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
