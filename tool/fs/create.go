@@ -1,6 +1,7 @@
 package fs
 
 import (
+	"io/ioutil"
 	"os"
 )
 
@@ -21,4 +22,8 @@ func Create(path, content string) error {
 
 func CreateDir(path string) error {
 	return os.Mkdir(path, os.ModeDir|os.ModePerm)
+}
+
+func WriteFile(filename string, b []byte) error {
+	return ioutil.WriteFile(filename, b, 0644)
 }

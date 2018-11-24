@@ -42,6 +42,12 @@ func Start() {
 			Action:  testAction,
 		},
 		{
+			Name:    "addtest",
+			Aliases: []string{"at"},
+			Usage:   "Add test from input/output.txt",
+			Action:  addTestAction,
+		},
+		{
 			Name:    "gen",
 			Aliases: []string{"g"},
 			Usage:   "WIP",
