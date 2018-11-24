@@ -16,8 +16,9 @@ type Global struct {
 }
 
 type RootConfig struct {
-	Tasks   string
-	Archive string
+	Tasks    string
+	Archive  string
+	Template string
 }
 
 func LoadGlobal() (Global, error) {

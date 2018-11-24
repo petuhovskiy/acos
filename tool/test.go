@@ -13,7 +13,7 @@ type TestOptions struct {
 	TestsDir   string
 }
 
-func TestTask(opts TestOptions) {
+func TestTask(opts TestOptions) error {
 	Action("Compile")
 	err := Compile(CompileOptions{
 		Src: opts.Source,
@@ -42,4 +42,6 @@ func TestTask(opts TestOptions) {
 
 		TestRun(opts.Executable, test)
 	}
+
+	return nil
 }

@@ -27,19 +27,19 @@ int main()
 func initAction(c *cli.Context) error {
 	err := fs.Create(def.RootFile, rootContent)
 	if err != nil {
-		cc.Errorfln("Failed to init root config %s", def.RootFile)
+		cc.Errorfln("Failed to init root config %s", cc.Var(def.RootFile))
 		return err
 	}
 
 	err = initTemplate(templateDir)
 	if err != nil {
-		cc.Errorfln("Failed to init template dir in %s", templateDir)
+		cc.Errorfln("Failed to init template dir in %s", cc.Var(templateDir))
 		return err
 	}
 
 	err = initArchive(archiveDir)
 	if err != nil {
-		cc.Errorfln("Failed to init archive dir in %s", archiveDir)
+		cc.Errorfln("Failed to init archive dir in %s", cc.Var(archiveDir))
 		return err
 	}
 	return nil

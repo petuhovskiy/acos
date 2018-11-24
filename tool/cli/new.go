@@ -1,52 +1,30 @@
 package cli
 
 import (
-	"fmt"
-	"io"
-	"os"
+	"errors"
+
+	"github.com/petuhovskiy/acos/tool/cc"
+	"github.com/petuhovskiy/acos/tool/fs"
+
+	"github.com/urfave/cli"
 )
 
-func NewTask(args []string) {
-	if len(args) == 0 {
-		fmt.Println("Specify task name")
-		os.Exit(1)
-	}
-
-	name := args[0]
-	err := os.Mkdir(name, os.ModeDir|os.ModePerm)
-	if os.IsExist(err) {
-		fmt.Println("Task already exists")
-		os.Exit(1)
-	}
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
-
-	os.Mkdir(name+"/tests", os.ModeDir|os.ModePerm)
-
-	silentCopy("z/main.c", name+"/main.c")
-
-	fmt.Println("Created new task.")
-}
-
-func silentCopy(src, dst string) error {
-	in, err := os.Open(src)
+func newAction(c *cli.Context) error {
+	g, err := globalset()
 	if err != nil {
 		return err
 	}
-	defer in.Close()
-
-	out, err := os.Create(dst)
-	if err != nil {
-		return err
+	for _, task := range c.Args() {
+		if fs.DirExists(task) {
+			cc.Errorfln("Task %s already exists", cc.Var(task))
+			return errors.New("task exists")
+		}
+		err := fs.CreateDirCopy(fs.Join(g.Tasks, task), g.Template)
+		if err != nil {
+			cc.Errorfln("Failed to create task %s", cc.Var(task))
+			return err
+		}
+		cc.Okfln("Created task %s", cc.Var(task))
 	}
-	defer out.Close()
-
-	_, err = io.Copy(out, in)
-	if err != nil {
-		return err
-	}
-
-	return out.Sync()
+	return nil
 }

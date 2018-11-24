@@ -14,20 +14,38 @@ func Start() {
 	app.Commands = []cli.Command{
 		{
 			Name:   "init",
-			Usage:  "init in current directory",
+			Usage:  "Init in current directory",
 			Action: initAction,
 		},
 		{
 			Name:    "archive",
 			Aliases: []string{"a"},
-			Usage:   "archive task: tasks->archive",
+			Usage:   "Archive task",
 			Action:  archiveAction,
 		},
 		{
 			Name:    "unarchive",
 			Aliases: []string{"u"},
-			Usage:   "unarchive task: tasks<-archive",
+			Usage:   "Unarchive task",
 			Action:  unarchiveAction,
+		},
+		{
+			Name:    "new",
+			Aliases: []string{"n"},
+			Usage:   "Create new task",
+			Action:  newAction,
+		},
+		{
+			Name:    "test",
+			Aliases: []string{"t"},
+			Usage:   "Create new task",
+			Action:  testAction,
+		},
+		{
+			Name:    "gen",
+			Aliases: []string{"g"},
+			Usage:   "WIP",
+			Action:  genAction,
 		},
 	}
 
