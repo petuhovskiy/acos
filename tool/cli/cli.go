@@ -1,23 +1,38 @@
 package cli
 
 import (
-	"fmt"
+	"log"
 	"os"
+
+	"github.com/urfave/cli"
 )
 
 func Start() {
-	args := os.Args[1:]
-	if len(args) >= 1 {
-		switch args[0] {
-		case "new":
-			NewTask(args[1:])
-		case "test":
-			TestTask(args[1:])
-		case "gen":
-			GenTests(args[1:])
-		default:
-			fmt.Printf("Unknown action: %s\n", args[0])
-		}
-		return
+	app := cli.NewApp()
+	app.Name = "acos"
+	app.Usage = "Tool for testing acos tasks"
+	app.Commands = []cli.Command{
+		{
+			Name:   "init",
+			Usage:  "init in current directory",
+			Action: initAction,
+		},
+		{
+			Name:    "archive",
+			Aliases: []string{"a"},
+			Usage:   "archive task: tasks->archive",
+			Action:  archiveAction,
+		},
+		{
+			Name:    "unarchive",
+			Aliases: []string{"u"},
+			Usage:   "unarchive task: tasks<-archive",
+			Action:  unarchiveAction,
+		},
+	}
+
+	err := app.Run(os.Args)
+	if err != nil {
+		log.Fatal(err)
 	}
 }
