@@ -16,7 +16,7 @@ Archive = "` + archiveDir + `"
 Root = "."
 Tasks = "."
 `
-	cppContent = `#include <cstdio.h>
+	cppContent = `#include <stdio.h>
 
 int main()
 {
