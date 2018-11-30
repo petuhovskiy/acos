@@ -1,7 +1,9 @@
 package cli
 
 import (
+	"errors"
 	"io/ioutil"
+	"strings"
 
 	"github.com/petuhovskiy/acos/tool/cc"
 	"github.com/petuhovskiy/acos/tool/def"
@@ -12,9 +14,13 @@ import (
 )
 
 func testAction(c *cli.Context) error {
+	src := c.String("src")
+	if !strings.HasSuffix(src, ".c") {
+		return errors.New("source file must ends in '.c'")
+	}
 	opts := tool.TestOptions{
-		Source:     "main.c",
-		Executable: "./main",
+		Source:     src,
+		Executable: "./" + strings.TrimSuffix(src, ".c"),
 		TestsDir:   "tests",
 	}
 

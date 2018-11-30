@@ -40,6 +40,13 @@ func Start() {
 			Aliases: []string{"t"},
 			Usage:   "Create new task",
 			Action:  testAction,
+			Flags: []cli.Flag{
+				cli.StringFlag{
+					Name:  "src, s",
+					Value: "main.c",
+					Usage: "Compile source `FILE`",
+				},
+			},
 		},
 		{
 			Name:    "addtest",
