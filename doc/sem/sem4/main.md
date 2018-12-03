@@ -43,8 +43,8 @@ union FU
     float fv;
     struct {
         unsigned m:23;
-	unsigned p:8;
-	unsigned s:1;
+        unsigned p:8;
+        unsigned s:1;
     };
 };
 union FU u;
