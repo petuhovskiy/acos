@@ -18,6 +18,7 @@ func Compile(opts CompileOptions) error {
 		"-Werror",
 		"-std=gnu11",
 		"-lm",
+		"-O2",
 		// "-g",
 		opts.Src,
 		"-o",

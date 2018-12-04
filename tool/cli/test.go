@@ -18,10 +18,11 @@ func testAction(c *cli.Context) error {
 	if !strings.HasSuffix(src, ".c") {
 		return errors.New("source file must ends in '.c'")
 	}
+	tests := c.String("tests")
 	opts := tool.TestOptions{
 		Source:     src,
 		Executable: "./" + strings.TrimSuffix(src, ".c"),
-		TestsDir:   "tests",
+		TestsDir:   tests,
 	}
 
 	return tool.TestTask(opts)

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strings"
 
 	"github.com/bclicn/color"
 )
@@ -29,9 +30,14 @@ func FindTests(dir string) ([]FileTest, error) {
 			continue
 		}
 
-		name := f.Name()
+		var name, aName string
+		name = f.Name()
+		if strings.HasSuffix(name, ".in") {
+			aName = strings.TrimSuffix(name, ".in") + ".out"
+		} else {
+			aName = name + ".a"
+		}
 
-		aName := name + ".a"
 		stat, err := os.Stat(dir + "/" + aName)
 		if err != nil || stat.Mode().IsDir() {
 			continue
