@@ -12,7 +12,9 @@
                 "-Werror",
                 "-std=gnu11",
                 "-g",
+                "-O0",
                 "-lm",
+                "-fsanitize=undefined",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
