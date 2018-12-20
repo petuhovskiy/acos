@@ -10,6 +10,8 @@
             "args": [
                 "-Wall",
                 "-Werror",
+                "-Wpedantic",
+                "-Wshadow",
                 "-std=gnu11",
                 "-g",
                 "-O0",
