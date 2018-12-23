@@ -1,3 +1,35 @@
+# Семинар 2
+
+## 
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char *buf = NULL;
+
+    while (scanf("%ms", &buf) == 1) {
+        printf("|%s|\n", buf);
+        free(buf);
+    }
+}
+```
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char buf[32];
+    while (fgets(buf, sizeof(buf), stdin)) {
+        printf("|%s|\n", buf);
+    }
+}
+```
+
+```c
 #include <stdio.h>
 
 int main()
@@ -16,3 +48,4 @@ int main()
 
     printf("%20.3s\n", "12345");
 }
+```
