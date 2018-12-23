@@ -28,6 +28,54 @@
 
 - [07-function-pointers](https://github.com/hseos/hseos-course/tree/master/2018/07-function-pointers)
 
+## io
+
+[reference](https://en.cppreference.com/w/c/io)
+
+### Посимвольное
+
+Пользуемся `getchar` (`fgetc`) и `putchar`.
+
+Также multithread-unsafe версия `getchar_unlocked` и `putchar_unlocked`, которая может быть быстрее в 10 раз.
+
+Пример посимвольного копирования:
+
+```c
+int c; // int, чтобы можно было отличать EOF
+while ((c = getchar_unlocked()) != EOF) {
+    putchar_unlocked(c);
+}
+```
+
+### Форматированное
+
+- [scanf](https://en.cppreference.com/w/c/io/fscanf)
+- [printf](https://en.cppreference.com/w/c/io/fprintf)
+
+## Приоритет операторов
+
+Смотреть [здесь](https://en.cppreference.com/w/c/language/operator_precedence).
+
+## tools
+
+TODO: GNU Toolchain, etc...
+
+### Течет память?
+
+Проверить программу на утечки волгриндом:
+
+`valgrind --leak-check=full ./a.out`
+
+TODO: санитайзеры
+
+### hexdump
+
+`hexdump -C dostext.c`
+
+### А также в ролях:
+
+`vi, nano, tmux, mc`
+
 ## И все остальное
 
 * [Прогаем на си](doc/c.md)
