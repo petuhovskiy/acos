@@ -76,14 +76,6 @@ TODO: санитайзеры
 
 `vi, nano, tmux, mc`
 
-## И все остальное
-
-* [Прогаем на си](doc/c.md)
-* [GNU Toolchain](doc/gnu.md)
-* [Работа в терминале и скрипты на баше](doc/shell.md)
-* [Утилиты командной строки](doc/tools.md)
-* [Настройка vscode](doc/vscode.md)
-
 ## Code style
 
 Основное [здесь](https://caos.ejudge.ru/style.html).
