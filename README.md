@@ -28,6 +28,24 @@
 
 - [07-function-pointers](https://github.com/hseos/hseos-course/tree/master/2018/07-function-pointers)
 
+## Лекции
+
+- [01-intro](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/01-intro/01-intro.pdf) ([youtube](https://www.youtube.com/watch?v=dtbu_tEPHsA&index=1&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
+- [02-integers](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/02-integers/02-integers.pdf) ([youtube](https://www.youtube.com/watch?v=gJyvTG68KtA&index=2&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
+- [03-floats](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/03-floats/03-floats.pdf) ([youtube](https://www.youtube.com/watch?v=EbwV_EqnTGc&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=4))
+- [04-environ](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/04-environ/04-environ.pdf) ([youtube](https://www.youtube.com/watch?v=UsUaYj7Hr8Y&index=3&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
+- [05-struct](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/05-struct/05-struct.pdf) ([youtube](https://www.youtube.com/watch?v=TC7mFYSslDQ&index=5&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j) [part2](https://www.youtube.com/watch?v=6pV8-b36zXI&index=6&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
+- [06-tools](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/06-tools/06-tools.pdf) ([youtube](https://www.youtube.com/watch?v=MNlnpOfehuQ&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=7))
+- [07-physics](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/07-physics/07-physics.pdf) ([youtube](https://www.youtube.com/watch?v=Yr1rUqxtCcQ))
+- [08-cpu](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/08-cpu/08-cpu.pdf) ([youtube](https://www.youtube.com/watch?v=qy0Xjy8YVNM&index=8&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
+- [09-ram](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/09-ram/09-ram.pdf) ([youtube](https://www.youtube.com/watch?v=XnfXQQKqxek&index=9&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
+- [youtube XX-cache,usb,bus](https://www.youtube.com/watch?v=pGQ8mFoxpuQ&index=10&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j)
+- [10-asm-intro](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/10-asm-intro/10-asm-intro.pdf) ([youtube](https://www.youtube.com/watch?v=QcuWR7xjp6o&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=11) [part 2](https://www.youtube.com/watch?v=lZiCoMUkMwc&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=12))
+- [11-asm1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/11-asm1/11-asm1.pdf) ([youtube](https://www.youtube.com/watch?v=DLKgeOuR-FA&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=13))
+- [12-asm2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/12-asm2/12-asm2.pdf) ([no-youtube]())
+- [13-asm3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/13-asm3/13-asm3.pdf) ([no-youtube]())
+- [](-)
+
 ## io
 
 [reference](https://en.cppreference.com/w/c/io)
