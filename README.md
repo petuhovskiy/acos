@@ -28,6 +28,8 @@
 
 - [07-function-pointers](https://github.com/hseos/hseos-course/tree/master/2018/07-function-pointers)
 
+- [08-asm1](https://github.com/hseos/hseos-course/tree/master/2018/08-asm1)
+
 ## Лекции
 
 - [01-intro](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/01-intro/01-intro.pdf) ([youtube](https://www.youtube.com/watch?v=dtbu_tEPHsA&index=1&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
