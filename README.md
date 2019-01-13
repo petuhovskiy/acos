@@ -45,7 +45,7 @@
 - [10-asm-intro](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/10-asm-intro/10-asm-intro.pdf) ([youtube](https://www.youtube.com/watch?v=QcuWR7xjp6o&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=11) [part 2](https://www.youtube.com/watch?v=lZiCoMUkMwc&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=12))
 - [11-asm1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/11-asm1/11-asm1.pdf) ([youtube](https://www.youtube.com/watch?v=DLKgeOuR-FA&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=13))
 - [12-asm2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/12-asm2/12-asm2.pdf) ([youtube](https://www.youtube.com/watch?v=tDhtxot-Z4o))
-- [13-asm3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/13-asm3/13-asm3.pdf) ([no-youtube]())
+- [13-asm3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/13-asm3/13-asm3.pdf) ([youtube](https://www.youtube.com/watch?v=ggjFUwOYaAA))
 - [](-)
 
 ## io
