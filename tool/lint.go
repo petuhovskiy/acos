@@ -2,10 +2,22 @@ package tool
 
 import (
 	"fmt"
+	"os"
+	"os/exec"
 	"strings"
+
+	"github.com/petuhovskiy/acos/tool/def"
 )
 
 func Lint(src string) {
+	conf := def.LoadConfig()
+
+	if conf.Defaults.AsmSrc != "" {
+		err := LintAsm(conf.Defaults.AsmSrc)
+		FError("Asm linter failed", err)
+		return
+	}
+
 	code, err := ReadText(src)
 	FError("Failed to read src", err)
 
@@ -36,6 +48,18 @@ func Lint(src string) {
 	if !strings.HasSuffix(code, "\n") {
 		FWarn("Missing \\n at the end of sourcefile.")
 	}
+}
+
+func LintAsm(src string) error {
+	cmd := exec.Command(
+		"asm_checker",
+		src,
+	)
+
+	cmd.Stdout = os.Stdout
+	cmd.Stderr = os.Stderr
+
+	return cmd.Run()
 }
 
 func CountIndent(line string) int {

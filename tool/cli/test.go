@@ -28,6 +28,20 @@ func testAction(c *cli.Context) error {
 	return tool.TestTask(opts)
 }
 
+func compileAction(c *cli.Context) error {
+	conf := def.LoadConfig()
+
+	tool.Action("Compile")
+	err := tool.Compile(tool.CompileOptions{
+		Src: conf.Defaults.Source,
+		Dst: conf.Defaults.Exe,
+		Log: true,
+	})
+	tool.FError("Compilation error", err)
+
+	return nil
+}
+
 func addTestAction(c *cli.Context) error {
 	dir, err := tests.FindDir()
 	if err != nil {

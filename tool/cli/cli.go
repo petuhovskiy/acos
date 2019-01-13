@@ -65,6 +65,16 @@ func Start() {
 			Usage:   "WIP",
 			Action:  genAction,
 		},
+		{
+			Name:   "conf",
+			Usage:  "Print current loaded config",
+			Action: confAction,
+		},
+		{
+			Name: "compile",
+			Usage: "Just compile",
+			Action: compileAction,
+		},
 	}
 
 	err := app.Run(os.Args)

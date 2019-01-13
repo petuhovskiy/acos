@@ -8,11 +8,23 @@ import (
 	"strings"
 
 	"github.com/bclicn/color"
+	"github.com/petuhovskiy/acos/tool/def"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
 func TestRun(exe string, test FileTest) {
-	cmd := exec.Command(exe)
+	conf := def.LoadConfig()
+
+	args := append([]string{}, conf.Defaults.RunArgs...)
+
+	for i, v := range args {
+		if v == "$exe" {
+			args[i] = exe
+		}
+	}
+
+	cmd := exec.Command(args[0], args[1:]...)
+
 	out := bytes.Buffer{}
 	cmd.Stdin = strings.NewReader(test.In)
 	cmd.Stdout = &out
