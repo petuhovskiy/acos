@@ -46,7 +46,19 @@
 - [11-asm1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/11-asm1/11-asm1.pdf) ([youtube](https://www.youtube.com/watch?v=DLKgeOuR-FA&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=13))
 - [12-asm2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/12-asm2/12-asm2.pdf) ([youtube](https://www.youtube.com/watch?v=tDhtxot-Z4o))
 - [13-asm3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/13-asm3/13-asm3.pdf) ([youtube](https://www.youtube.com/watch?v=ggjFUwOYaAA))
-- [](-)
+- [14-asm4](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/14-asm4/14-asm4.pdf) ([no-youtube]())
+- [15-asm5](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/15-asm5/15-asm5.pdf) ([no-youtube]())
+- [16-executable](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/16-executable/16-executable.pdf) ([no-youtube]())
+- [17-syscalls](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/17-syscalls/17-syscalls.pdf) ([no-youtube]())
+- [18-perf](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/18-perf/18-perf.pdf) ([no-youtube]())
+- []() ([no-youtube]())
+- []() ([no-youtube]())
+
+## asm
+
+- [x86 Assembly Guide](http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html)
+- [Опкоды](http://ref.x86asm.net/)
+- [08-asm1](https://github.com/hseos/hseos-course/tree/master/2018/08-asm1)
 
 ## io
 
