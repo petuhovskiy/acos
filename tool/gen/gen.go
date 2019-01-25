@@ -7,7 +7,11 @@ import (
 	"time"
 
 	"github.com/bclicn/color"
-	"github.com/petuhovskiy/acos/tool/def"
+)
+
+var (
+	OK = color.BGreen("OK")
+	WA = color.BRed("WA")
 )
 
 func Init() {
@@ -36,15 +40,15 @@ func Test(f func() error, cnt int) {
 		fmt.Print(color.Bold(fmt.Sprintf("> Test %3d = ", i)))
 		err := f()
 		if err == nil {
-			fmt.Println(def.OK)
+			fmt.Println(OK)
 			ok++
 		} else {
-			fmt.Println(def.WA, err)
+			fmt.Println(WA, err)
 			wa++
 		}
 	}
-	fmt.Println(def.OK, ok)
-	fmt.Println(def.WA, wa)
+	fmt.Println(OK, ok)
+	fmt.Println(WA, wa)
 }
 
 const (
