@@ -30,6 +30,10 @@
 
 - [08-asm1](https://github.com/hseos/hseos-course/tree/master/2018/08-asm1)
 
+- [09-asm2](https://github.com/hseos/hseos-course/tree/master/2018/09-asm2)
+
+- [10-asm3](https://github.com/hseos/hseos-course/tree/master/2018/10-asm3)
+
 ## Лекции
 
 - [01-intro](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/01-intro/01-intro.pdf) ([youtube](https://www.youtube.com/watch?v=dtbu_tEPHsA&index=1&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j))
@@ -46,7 +50,7 @@
 - [11-asm1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/11-asm1/11-asm1.pdf) ([youtube](https://www.youtube.com/watch?v=DLKgeOuR-FA&list=PLK4MMyYsjOvo45S1UtYjNJ0kRkvDCDY9j&index=13))
 - [12-asm2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/12-asm2/12-asm2.pdf) ([youtube](https://www.youtube.com/watch?v=tDhtxot-Z4o))
 - [13-asm3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/13-asm3/13-asm3.pdf) ([youtube](https://www.youtube.com/watch?v=ggjFUwOYaAA))
-- [14-asm4](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/14-asm4/14-asm4.pdf) ([no-youtube]())
+- [14-asm4](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/14-asm4/14-asm4.pdf) ([youtube](https://www.youtube.com/watch?v=FpDgQnBGVkU))
 - [15-asm5](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/15-asm5/15-asm5.pdf) ([no-youtube]())
 - [16-executable](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/16-executable/16-executable.pdf) ([no-youtube]())
 - [17-syscalls](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/17-syscalls/17-syscalls.pdf) ([no-youtube]())
