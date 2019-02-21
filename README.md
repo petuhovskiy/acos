@@ -15,24 +15,17 @@
 - [01-linux intro](https://github.com/hseos/hseos-course/blob/master/2018/01-intro/01-intro.md)
 - [01-terminal commands](https://github.com/hseos/hseos-course/blob/master/2018/01-intro/02-cmdline-part1.md)
 - [01-bash scripts](https://github.com/hseos/hseos-course/blob/master/2018/01-intro/03-cmdline-part2.md)
-
 - [02-stdio](https://github.com/hseos/hseos-course/tree/master/2018/02-stdio)
-
 - [03-integers](https://github.com/hseos/hseos-course/tree/master/2018/03-integers)
-
 - [04-floating](https://github.com/hseos/hseos-course/tree/master/2018/04-floating-point)
-
 - [05-arrays](https://github.com/hseos/hseos-course/tree/master/2018/05-arrays)
-
 - [06-pointers (aka strings)](https://github.com/hseos/hseos-course/tree/master/2018/06-pointers)
-
 - [07-function-pointers](https://github.com/hseos/hseos-course/tree/master/2018/07-function-pointers)
-
 - [08-asm1](https://github.com/hseos/hseos-course/tree/master/2018/08-asm1)
-
 - [09-asm2](https://github.com/hseos/hseos-course/tree/master/2018/09-asm2)
-
 - [10-asm3](https://github.com/hseos/hseos-course/tree/master/2018/10-asm3)
+- [11-asm4](https://github.com/hseos/hseos-course/tree/master/2018/11-asm4)
+- [12-files1](https://github.com/hseos/hseos-course/tree/master/2018/12-files1)
 
 ## Лекции
 
@@ -55,6 +48,13 @@
 - [16-executable](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/16-executable/16-executable.pdf) ([no-youtube]())
 - [17-syscalls](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/17-syscalls/17-syscalls.pdf) ([no-youtube]())
 - [18-perf](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/18-perf/18-perf.pdf) ([youtube w/ 17th end](https://www.youtube.com/watch?v=SepyeQqq6uo))
+- [19-io](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/19-io/19-io.pdf) ([youtube](https://www.youtube.com/watch?v=G9Yh2BJ0Reg))
+- [20-filesystem1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/20-filesystem1/20-filesystem1.pdf) ([no-youtube]())
+- [21-filesystem2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/21-filesystem2/21-filesystem2.pdf) ([no-youtube]())
+- [22-filesystem3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/22-filesystem3/22-filesystem3.pdf) ([no-youtube]())
+- [23-nmap](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/23-mmap/23-mmap.pdf) ([no-youtube]())
+- [24-fork](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/24-fork/24-fork.pdf) ([no-youtube]())
+- []() ([no-youtube]())
 - []() ([no-youtube]())
 - []() ([no-youtube]())
 
