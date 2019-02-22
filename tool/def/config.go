@@ -3,6 +3,7 @@ package def
 import (
 	"encoding/json"
 	"log"
+	"os"
 
 	config "github.com/micro/go-config"
 	"github.com/micro/go-config/source"
@@ -45,7 +46,7 @@ var defaultConfig = Config{
 	},
 }
 
-func LoadConfig() *Config {
+func LoadConfig() Config {
 	conf := config.NewConfig()
 
 	data, err := json.Marshal(defaultConfig)
@@ -53,7 +54,7 @@ func LoadConfig() *Config {
 		log.Println(err)
 	}
 
-	err = conf.Load(
+	sources := []source.Source{
 		memory.NewSource(
 			memory.WithChangeSet(
 				&source.ChangeSet{
@@ -61,15 +62,23 @@ func LoadConfig() *Config {
 				},
 			),
 		),
-		file.NewSource(
-			file.WithPath("acos.toml"),
-		),
-	)
+	}
+
+	if info, _ := os.Stat("acos.toml"); info != nil {
+		sources = append(
+			sources,
+			file.NewSource(
+				file.WithPath("acos.toml"),
+			),
+		)
+	}
+
+	err = conf.Load(sources...)
 	if err != nil {
 		log.Println(err)
 	}
 
-	c := &Config{}
+	c := Config{}
 	err = conf.Scan(&c)
 	if err != nil {
 		log.Println(err)

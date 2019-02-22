@@ -3,6 +3,7 @@
         "stdio.h": "c",
         "stdint.h": "c",
         "ctype.h": "c",
-        "unistd_32.h": "c"
+        "unistd_32.h": "c",
+        "errno.h": "c"
     }
 }
