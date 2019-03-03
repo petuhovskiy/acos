@@ -4,6 +4,8 @@
         "stdint.h": "c",
         "ctype.h": "c",
         "unistd_32.h": "c",
-        "errno.h": "c"
+        "errno.h": "c",
+        "stdlib.h": "c",
+        "unistd.h": "c"
     }
 }

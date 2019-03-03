@@ -49,7 +49,7 @@
 - [17-syscalls](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/17-syscalls/17-syscalls.pdf) ([no-youtube]())
 - [18-perf](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/18-perf/18-perf.pdf) ([youtube w/ 17th end](https://www.youtube.com/watch?v=SepyeQqq6uo))
 - [19-io](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/19-io/19-io.pdf) ([youtube](https://www.youtube.com/watch?v=G9Yh2BJ0Reg))
-- [20-filesystem1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/20-filesystem1/20-filesystem1.pdf) ([no-youtube]())
+- [20-filesystem1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/20-filesystem1/20-filesystem1.pdf) ([youtube w/ 19th end](https://www.youtube.com/watch?v=Fyn9SVJmov0))
 - [21-filesystem2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/21-filesystem2/21-filesystem2.pdf) ([no-youtube]())
 - [22-filesystem3](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/22-filesystem3/22-filesystem3.pdf) ([no-youtube]())
 - [23-nmap](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/23-mmap/23-mmap.pdf) ([no-youtube]())
