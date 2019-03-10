@@ -26,6 +26,10 @@
 - [10-asm3](https://github.com/hseos/hseos-course/tree/master/2018/10-asm3)
 - [11-asm4](https://github.com/hseos/hseos-course/tree/master/2018/11-asm4)
 - [12-files1](https://github.com/hseos/hseos-course/tree/master/2018/12-files1)
+- [13-files2](https://github.com/hseos/hseos-course/tree/master/2018/13-files2)
+- [14-files3](https://github.com/hseos/hseos-course/tree/master/2018/14-files3)
+- [15-mmap](https://github.com/hseos/hseos-course/tree/master/2018/15-mmap)
+- [](https://github.com/hseos/hseos-course/tree/master/2018/)
 
 ## Лекции
 
@@ -46,8 +50,8 @@
 - [14-asm4](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/14-asm4/14-asm4.pdf) ([youtube](https://www.youtube.com/watch?v=FpDgQnBGVkU))
 - [15-asm5](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/15-asm5/15-asm5.pdf) ([youtube w/ 14th end](https://www.youtube.com/watch?v=Ypxd9GfWUrY))
 - [16-executable](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/16-executable/16-executable.pdf) ([no-youtube]())
-- [17-syscalls](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/17-syscalls/17-syscalls.pdf) ([no-youtube]())
-- [18-perf](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/18-perf/18-perf.pdf) ([youtube w/ 17th end](https://www.youtube.com/watch?v=SepyeQqq6uo))
+- [17-syscalls](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/17-syscalls/17-syscalls.pdf) ([youtube](https://www.youtube.com/watch?v=SepyeQqq6uo))
+- [18-perf](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/18-perf/18-perf.pdf) ([youtube](https://www.youtube.com/watch?v=PElq7GZ_YSg))
 - [19-io](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/19-io/19-io.pdf) ([youtube](https://www.youtube.com/watch?v=G9Yh2BJ0Reg))
 - [20-filesystem1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/20-filesystem1/20-filesystem1.pdf) ([youtube w/ 19th end](https://www.youtube.com/watch?v=Fyn9SVJmov0))
 - [21-filesystem2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/21-filesystem2/21-filesystem2.pdf) ([youtube w/ 20th end](https://www.youtube.com/watch?v=j5jflWDC5KE))
