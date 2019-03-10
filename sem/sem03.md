@@ -1,7 +1,5 @@
 # Семинар 3
 
-Хаю-хай, с вами Черновгай.
-
 ```c
 const int f = 10; // read-only variable
 ```
