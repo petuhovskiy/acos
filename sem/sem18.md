@@ -49,8 +49,8 @@ int main() {
 int main() {
     int fd[2];
     pipe(fd);
-    fcntl(fd[0], F_SETFD, fcntl(fd[0], F_GETGD, 0), | O_CLOEXEC);
-    fcntl(fd[1], F_SETFD, fcntl(fd[1], F_GETGD, 0), | O_CLOEXEC);
+    fcntl(fd[0], F_SETFD, fcntl(fd[0], F_GETFD, 0) | O_CLOEXEC);
+    fcntl(fd[1], F_SETFD, fcntl(fd[1], F_GETFD, 0) | O_CLOEXEC);
 
     if (!fork()) {
         dup2(fd[1], 1);
