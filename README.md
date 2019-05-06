@@ -33,6 +33,8 @@
 - 17-exec ([2017](https://github.com/hseos/hseos-course/tree/master/2017/18-pipe))
 - [18-pipe](https://github.com/hseos/hseos-course/tree/master/2018/18-pipe)
 - [19-signal1](https://github.com/hseos/hseos-course/tree/master/2018/19-signal1)
+- [20-socket](https://github.com/hseos/hseos-course/tree/master/2018/20-socket)
+- [](https://github.com/hseos/hseos-course/tree/master/2018/)
 - [](https://github.com/hseos/hseos-course/tree/master/2018/)
 
 ## Лекции
@@ -67,8 +69,12 @@
 - [27-signal1](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/27-signal1/27-signal1.pdf) ([youtube](https://www.youtube.com/watch?v=riHl32TiKaI))
 - [28-signal2](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/28-signal2/28-signal2.pdf) ([youtube](https://www.youtube.com/watch?v=NXQkbsDtjoI))
 - [29-socket](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/29-socket/29-socket.pdf) ([youtube](https://www.youtube.com/watch?v=bkG7dB7ETiI))
-- [30-epoll](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/30-epoll/30-epoll.pdf) ([no-youtube]())
+- [30-epoll](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/30-epoll/30-epoll.pdf) ([youtube](https://www.youtube.com/watch?v=nRAQfmX40uA))
 - [31-tty](https://github.com/hseos/hseos-course/tree/master/2017/00-lectures/31-tty) ([no-youtube]())
+- [32-33-thread](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/32-33-thread/32-33-thread.pdf) ([no-youtube]())
+- [??-net]() ([youtube](https://www.youtube.com/watch?v=7e_x_xT3IcE))
+- []() ([no-youtube]())
+- []() ([no-youtube]())
 - []() ([no-youtube]())
 - []() ([no-youtube]())
 

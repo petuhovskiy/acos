@@ -6,6 +6,7 @@
         "unistd_32.h": "c",
         "errno.h": "c",
         "stdlib.h": "c",
-        "unistd.h": "c"
+        "unistd.h": "c",
+        "signalfd.h": "c"
     }
 }
