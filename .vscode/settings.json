@@ -7,6 +7,9 @@
         "errno.h": "c",
         "stdlib.h": "c",
         "unistd.h": "c",
-        "signalfd.h": "c"
+        "signalfd.h": "c",
+        "time.h": "c",
+        "inttypes.h": "c",
+        "epoll.h": "c"
     }
 }
