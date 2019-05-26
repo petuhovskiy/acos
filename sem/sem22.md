@@ -5,7 +5,8 @@
 Библиотека pthread - стандарт для нитей в Си и UNIX, и большинстве программ.
 
 > thr1.c
-```с
+
+```c
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -42,7 +43,8 @@ ps -Ta  # показывает одну строку на нить
 ```
 
 > thr2.c
-```с
+
+```c
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -71,7 +73,8 @@ int main()
 ```
 
 > thr3.c
-```с
+
+```c
 #include <pthread.h>
 #include <stdio.h>
 #include <unistd.h>
