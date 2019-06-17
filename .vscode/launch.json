@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/home/arthur/acos/src/ht01-1/main",
+            "program": "/home/arthur/acos/src/sm23-5/test",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

@@ -37,8 +37,7 @@
 - [21-poll](https://github.com/hseos/hseos-course/tree/master/2018/21-poll  )
 - [22-pthread](https://github.com/hseos/hseos-course/tree/master/2018/22-pthread)
 - [23-mutex](https://github.com/hseos/hseos-course/tree/master/2018/23-mutex)
-- [](https://github.com/hseos/hseos-course/tree/master/2018/)
-- [](https://github.com/hseos/hseos-course/tree/master/2018/)
+- [24-stdthread](https://github.com/hseos/hseos-course/tree/master/2018/24-stdthread)
 
 ## Лекции
 
@@ -81,7 +80,14 @@
 - [threads-longread](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/32-33-thread/threads-longread.pdf)
 - [34-mutex](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/34-mutex/34-mutex.pdf) ([youtube w/ 33rd end](https://www.youtube.com/watch?v=Alz-ANmWpsA))
 - [35-condvar](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/35-condvar/35-condvar.pdf) ([youtube](https://www.youtube.com/watch?v=l4qK6_-R7N8))
-- [36-atomic](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/36-atomic/36-atomic.pdf) ([no-youtube]())
+- [36-atomic](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/36-atomic/36-atomic.pdf) ([youtube](https://www.youtube.com/watch?v=jt6vX_IvdEE))
 - [36-atomic-long](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/36-atomic/36-atomic-long.pdf)
-- []() ([no-youtube]())
-- []() ([no-youtube]())
+- [37-stdthread](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/37-stdthread/37-stdthread.pdf) ([no-youtube]())
+- [38-scheduler](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/38-scheduler/38-scheduler.pdf) ([youtube](https://www.youtube.com/watch?v=bGLEeadAK7k))
+- [39-cpp-references](https://github.com/hseos/hseos-course/tree/master/2017/00-lectures/39-cpp-references) ([no-youtube]())
+- [40-filesysimpl](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/40-filesysimpl/40-filesysimpl.pdf) ([no-youtube]())
+- [41-kernelmemory](https://github.com/hseos/hseos-course/blob/master/2017/00-lectures/41-kernelmemory/41-kernelmemory.pdf) ([no-youtube]())
+
+## Экз
+
+- [Разбор кр](https://www.youtube.com/watch?v=QiVla_OwCDk)
