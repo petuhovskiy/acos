@@ -74,6 +74,35 @@ char *ep = NULL; // указатель на первый некорректны�
 errno = 0;
 long x = strtol(s, &ep, 10);
 if (errno || *ep || ep == s) {
-    
+
+}
+```
+
+## Переменное число аргументов в функции
+```c
+#include <stdarg.h>
+
+int64_t sum(const char *format, ...) {
+    // [dul] -- 32b integer, 32b unsigned integer, 64b integer
+    int64_t s = 0;
+
+    va_list args;
+    va_start(args, format);
+
+    for (const char *p = format; *p; ++p) {
+        if (*p == 'd') {
+            s += va_arg(args, int32_t);
+        } else if (*p == 'u') {
+            s += va_arg(args, uint32_t);
+        } else if (*p == 'l') {
+            s += va_arg(args, int64_t);
+        } else {
+            abort();
+        }
+    }
+
+    va_end(args);
+
+    return s;
 }
 ```
